@@ -46,3 +46,5 @@ post:
       enable: false
       source: "leancloud"
       format: "{} 次"
+
+favicon: /img/icon.webp
