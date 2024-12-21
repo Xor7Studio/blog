@@ -97,7 +97,38 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid
-all_minifier: true
+#all_minifier: true
+
+OhMyLive2d:
+  enable: true
+  CDN: https://registry.npmmirror.com/oh-my-live2d/latest/files
+  option:
+    dockedPosition: 'right'
+    mobileDisplay: false
+    parentElement: document.body
+    primaryColor: 'var(--btn-bg)'
+    sayHello: false
+    menus:
+      disable: true
+    models:
+      - path: /live2d-models/17kanade_unit/17kanade_unit.model3.json
+        position: [ -30, -40 ]
+        volume: 0
+        scale: 0.1
+        stageStyle:
+          width: 250
+          height: 350
+        motionPreloadStrategy: IDLE
+    tips:
+      message: []
+      idleTips:
+        message: []
+      welcomeTips: null
+      style:
+        width: 230
+        height: 120
+        left: calc(50% - 20px)
+        top: -100px
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
