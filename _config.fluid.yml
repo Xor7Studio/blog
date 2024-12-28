@@ -31,6 +31,7 @@ footer:
     <a>本站点 Banner 图片版权归其合法所有者所有，包括但不限于 Sega、Colorful Palette 和 Crypton。</a>
   '
 post:
+  banner_img: /img/banner.jpg
   meta:
     author:
       enable: true
