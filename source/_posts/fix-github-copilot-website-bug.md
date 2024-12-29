@@ -3,6 +3,12 @@ title: 使用 AdGuard 插件移除 GitHub Copilot 网页版的顶部空白
 author: MC_XiaoHei
 ---
 
+{% note danger %}
+
+**不知为何，本文所述方法失效，仅供参考**
+
+{% endnote %}
+
 GitHub Copilot 的网页版本有一个很烦人的 bug，就是在顶部有一个很大的空白，等了很久也没修，故有此文。
 
 先来看看之前的网页 bug：
