@@ -5,7 +5,7 @@ author: MC_XiaoHei
 
 {% note danger %}
 
-**不知为何，本文所述方法失效，仅供参考**
+**GitHub 已修复，本文仅供参考**
 
 {% endnote %}
 
